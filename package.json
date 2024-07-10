@@ -1,0 +1,30 @@
+{
+  "name": "todo-application",
+  "version": "1.0.0",
+  "description": "Todo application",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasibul Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "qrcode": "^1.5.3",
+    "sequelize": "^6.37.3",
+    "speakeasy": "^2.0.0"
+  }
+}
